@@ -87,7 +87,7 @@ a {
 }
 
 .nav-text {
-  font-size: 0.7em;
+  font-size: 1em;
   margin-bottom: 0em;
   font-family: var(--hdr-font);
   color: var(--main);
@@ -123,10 +123,12 @@ a:hover {
 }
 
 .title-text, .title-text a {
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-family: var(--hdr-font);
   color: var(--main);
   /* font-family: 'Baloo Da 2', cursive; */
+  text-align: center;
+  padding: 0;
 }
 
 .title-text a:hover {
