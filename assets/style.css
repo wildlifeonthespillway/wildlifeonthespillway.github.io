@@ -90,7 +90,8 @@ a {
   font-size: 0.7em;
   margin-bottom: 0em;
   font-family: var(--hdr-font);
-  color: var(--main)
+  color: var(--main);
+  letter-spacing: 0.2em;
   /* font-family: 'Fredoka One', cursive; */
   /* font-family: 'Baloo Da 2', cursive; */
 }
