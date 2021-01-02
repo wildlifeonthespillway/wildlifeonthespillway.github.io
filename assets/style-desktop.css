@@ -1,0 +1,99 @@
+.title-text {
+  font-size: 2.3em;
+}
+
+.nav-text {
+  font-size: 1em;
+}
+
+#header-div{
+  /* width: 100vw; */
+}
+
+.content-div {
+  width: 90vw;
+}
+
+#header-div {
+  padding-top: 1.5em;
+}
+
+.thumb-container {
+  /* height: 15em;
+  width: 15em; */
+  height: 40vw;
+  width: 40vw;
+}
+
+.subsec-header-div {
+  font-size: 1.5em;
+  margin: 0 1em;
+  display: inline;
+}
+
+#nav-td {
+  width:50%;
+}
+
+#desktop-nav-div {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+#about-me-img {
+  width: 20em;
+  height: 20em;
+}
+#about-header-text {
+  font-size: 3em;
+}
+
+#about-me-td {
+  display: none;
+}
+
+#about-me-td-desktop {
+  display: block;
+}
+
+#about-me-table {
+  width: 60%;
+  margin: auto;
+}
+
+#contact-form {
+  width: 25em;
+}
+
+#contact-form-title {
+  font-size: 2em;
+}
+
+div::-webkit-scrollbar {
+  height: 0.5em;
+}
+
+/* SPLASH */
+
+#splash-title-bottom {
+  border-bottom: 3pt solid var(--accent1);
+}
+
+#main-box, #box-1, #box-2, #box-3 {
+border: 2pt solid var(--accent3);
+}
+
+
+#xmas-letter-text {
+  width: 50%;
+  height: 80%;
+}
+
+#xmas-letter-text h2 {
+  font-size: 3em;
+}
+
+#open-website-button {
+  width: 20em;
+}
