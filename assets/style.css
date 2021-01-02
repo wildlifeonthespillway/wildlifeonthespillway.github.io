@@ -215,7 +215,7 @@ nav-td {
   /* height: 1em; */
   /* width: 5em; */
   position: relative;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
   vertical-align: middle;
   /* font-family: 'Fredoka One', cursive; */
@@ -263,6 +263,10 @@ nav-td {
   text-align: center;
   width: 100%;
   /* height: 5em; */
+}
+
+.subsec-div a {
+  padding: 0;
 }
 
 .thumb-container {
