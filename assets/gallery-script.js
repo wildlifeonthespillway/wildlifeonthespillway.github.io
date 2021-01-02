@@ -6,8 +6,8 @@ var activeGallery=0;
 
 $.ajax({
   type: "GET",
-  url: "assets/gallery-info.csv",
-  // url: "https://raw.githubusercontent.com/onmygamephoto/onmygamephoto.github.io/main/assets/gallery-info.csv",
+  url: "assets/gallery-info .csv",
+  // url: "https://raw.githubusercontent.com/wildlifeonthespillway/wildlifeonthespillway.github.io/main/assets/gallery-info.csv",
   async: false,
   dataType: "text",
   success: function(response)
