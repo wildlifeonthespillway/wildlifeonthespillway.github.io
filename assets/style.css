@@ -76,7 +76,6 @@ a {
   -webkit-transition: color .5s,border .5s;
   transition: color .5s,border .5s;
   color: var(--accent2);
-  padding: 0.2em 0.5em;
 }
 
 #desktop-nav-div {
@@ -94,17 +93,24 @@ a {
   letter-spacing: 0.2em;
   /* font-family: 'Fredoka One', cursive; */
   /* font-family: 'Baloo Da 2', cursive; */
+  /* padding: 0.2em 0.5em; */
+  border-bottom: solid var(--accent2) 2pt;
+  padding: 0;
+  /* margin-right: -0.2em; */
+  letter-spacing: normal;
 }
 
 .nav-text-inactive a{
   color:  var(--accent2);
-  padding: 0.2em 0.5em;
-  border: solid var(--accent3) 2pt;
+  padding: 0;
+  /* padding: 0.2em 0.5em; */
+  border-bottom: solid var(--accent3) 2pt;
+  letter-spacing: normal;
 }
 
 a:hover {
   color: var(--main);
-  border: solid var(--accent2) 2pt;
+  /* border-bottom: solid var(--accent2) 2pt; */
   /* background: var(--main-50); */
 }
 
@@ -738,7 +744,6 @@ div::-webkit-scrollbar-button:single-button:horizontal:increment:active,div::-we
   padding: 0.1em 5%;
   font-family: var(--hdr-font);
   letter-spacing: 0.2em;
-
 }
 
 .splash-nav-button a{
